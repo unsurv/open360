@@ -1,7 +1,7 @@
 (kicad_pcb (version 20211014) (generator pcbnew)
 
   (general
-    (thickness 4.69)
+    (thickness 1.60252)
   )
 
   (paper "A4")
@@ -43,15 +43,15 @@
     (stackup
       (layer "F.SilkS" (type "Top Silk Screen"))
       (layer "F.Paste" (type "Top Solder Paste"))
-      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
-      (layer "F.Cu" (type "copper") (thickness 0.035))
-      (layer "dielectric 1" (type "core") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.025))
+      (layer "F.Cu" (type "copper") (thickness 0.04))
+      (layer "dielectric 1" (type "core") (thickness 0.13626) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
       (layer "In1.Cu" (type "copper") (thickness 0.035))
-      (layer "dielectric 2" (type "prepreg") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "dielectric 2" (type "prepreg") (thickness 1.13) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
       (layer "In2.Cu" (type "copper") (thickness 0.035))
-      (layer "dielectric 3" (type "core") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
-      (layer "B.Cu" (type "copper") (thickness 0.035))
-      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "dielectric 3" (type "core") (thickness 0.13626) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.04))
+      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.025))
       (layer "B.Paste" (type "Bottom Solder Paste"))
       (layer "B.SilkS" (type "Bottom Silk Screen"))
       (copper_finish "None")
@@ -138,7 +138,7 @@
 
   (footprint "unsurv_offline_pcb_footprints:Molex 505110-2891" (layer "F.Cu")
     (tedit 0) (tstamp 0581bf3b-0fc5-480a-bd25-6fab8bc6fcf0)
-    (at 32.5 37.25)
+    (at 32.5 38.75)
     (property "Sheetfile" "imx219_4lane.kicad_sch")
     (property "Sheetname" "")
     (path "/1f8606f0-ab77-454e-8a9c-2ef4314cb1f8")
@@ -212,6 +212,11 @@
       (net 2 "SHELL") (pinfunction "Pin_29") (pintype "passive") (tstamp a14e60c7-0202-4fd8-a972-e2cc790b2149))
     (pad "30" smd roundrect (at 9.05 2.7) (size 2 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "SHELL") (pinfunction "Pin_30") (pintype "passive") (tstamp f7f43e96-8a0e-49a2-862e-5282bceea311))
+    (model "${KICAD6_3DMODEL_DIR}/imported/5051102891.stp"
+      (offset (xyz 0 -1 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
@@ -258,7 +263,7 @@
 
   (footprint "unsurv_offline_pcb_footprints:DLP11SN900HL2L_hand_solder" (layer "F.Cu")
     (tedit 0) (tstamp 0aeea26a-afe1-42ae-8ae7-fce5020a818b)
-    (at 28 35 -90)
+    (at 28 36 -90)
     (property "Sheetfile" "imx219_4lane.kicad_sch")
     (property "Sheetname" "")
     (path "/71c383ce-6eb7-483d-aac8-95579e6a4204")
@@ -489,7 +494,7 @@
     (property "Sheetname" "")
     (path "/636a7445-cfe6-48e8-a48a-89520a31700e")
     (attr smd)
-    (fp_text reference "Q2" (at -0.475 -3.375) (layer "F.SilkS")
+    (fp_text reference "Q2" (at -0.475 -4.375) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 134b7b7a-05c4-4568-9902-186e59ce0838)
     )
@@ -792,7 +797,7 @@
 
   (footprint "unsurv_offline_pcb_footprints:DLP11SN900HL2L_hand_solder" (layer "F.Cu")
     (tedit 0) (tstamp 6911b614-2d5a-4bb1-97ce-faaa79f60d1b)
-    (at 29.5 35 -90)
+    (at 29.5 36 -90)
     (property "Sheetfile" "imx219_4lane.kicad_sch")
     (property "Sheetname" "")
     (path "/b0c732f4-5a91-4d48-a79a-506d6d1edf6f")
@@ -818,7 +823,7 @@
 
   (footprint "unsurv_offline_pcb_footprints:DLP11SN900HL2L_hand_solder" (layer "F.Cu")
     (tedit 0) (tstamp 7282cbcb-dde7-4058-99b8-97eaf6f3c940)
-    (at 26.5 35 90)
+    (at 26.5 36 90)
     (property "Sheetfile" "imx219_4lane.kicad_sch")
     (property "Sheetname" "")
     (path "/e3d6a46e-7591-4ccd-b588-44aaefc9d8dd")
@@ -844,7 +849,7 @@
 
   (footprint "unsurv_offline_pcb_footprints:DLP11SN900HL2L_hand_solder" (layer "F.Cu")
     (tedit 0) (tstamp 754e06fb-a004-418b-94db-3ca0154e3c96)
-    (at 31 35 -90)
+    (at 31 36 -90)
     (property "Sheetfile" "imx219_4lane.kicad_sch")
     (property "Sheetname" "")
     (path "/d872a483-649b-4996-b36d-75139f737dbd")
@@ -1089,7 +1094,7 @@
 
   (footprint "unsurv_offline_pcb_footprints:DLP11SN900HL2L_hand_solder" (layer "F.Cu")
     (tedit 0) (tstamp f5c61676-ca25-4c1b-8179-9912768c35b3)
-    (at 32.5 35 -90)
+    (at 32.5 36 -90)
     (property "Sheetfile" "imx219_4lane.kicad_sch")
     (property "Sheetname" "")
     (path "/6ac9b9fc-b7f8-4a24-8c75-0a34a14b901a")
